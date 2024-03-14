@@ -1,5 +1,6 @@
 import Navbar from './Navbar'
-import List from './componenets/List'
+import Counter from './components/Counter'
+import List from './components/List'
 
 const Layout = () => {
   return (
@@ -7,6 +8,7 @@ const Layout = () => {
       <Navbar />
       <div className="container">
         <List />
+        <Counter />
       </div>
     </>
   )

@@ -1,13 +1,13 @@
 import PropTypes from 'prop-types'
 
 const ListItem = (props) => {
-  return <li className="list-item">{props.feature}</li>
+  return <li className="list-item">{props.text}</li>
 }
 
 export default ListItem
 
 ListItem.propTypes = {
-  feature: PropTypes.string.isRequired
+  text: PropTypes.string.isRequired
 }
 
 // npm install --save prop-types

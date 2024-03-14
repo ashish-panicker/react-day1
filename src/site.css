@@ -9,6 +9,21 @@ body {
     font-family: sans-serif;
 }
 
+.button {
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 1.1rem;
+    border: none;
+    outline: 1px solid black;
+}
+
+.button:focus {
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 1.1rem;
+}
+
+
 .navbar {
     display: flex;
     flex-direction: row;
@@ -55,9 +70,21 @@ body {
 
 .article {
     margin-top: 4px;
+    background-color: white;
+    color: rgb(35, 39, 47);
+    border-radius: 8px;
+    padding: 24px;
+    width: 75%;
+    /* margin: 0 auto; */
 }
 
-.article>h2 {
+.article-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.article-title>h2 {
     font-size: 2rem;
     margin-bottom: 6px;
 }
