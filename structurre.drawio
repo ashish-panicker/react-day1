@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="wTt0gNObyo67Dp9j6otB" name="Page-1">
-        <mxGraphModel dx="947" dy="552" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="971" dy="714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -25,11 +25,23 @@
                 <mxCell id="3" value="Layout - app layout" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="250" y="200" width="230" height="60" as="geometry"/>
                 </mxCell>
+                <mxCell id="12" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="5" target="11">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
                 <mxCell id="5" value="Navbar&amp;nbsp;{data:value}" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="100" y="310" width="230" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="9" value="List&amp;nbsp;&amp;nbsp;{data:value}" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="380" y="310" width="230" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="NavLink {data:value}" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry y="520" width="230" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" style="edgeStyle=none;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="17" target="11">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="Props" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=13;" vertex="1" parent="1">
+                    <mxGeometry x="270" y="310" width="40" height="60" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
