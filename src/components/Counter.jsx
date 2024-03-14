@@ -1,4 +1,5 @@
 import React from 'react'
+import Button from './Button'
 
 const Counter = () => {
   const [counter, setCounter] = React.useState(1)
@@ -12,17 +13,13 @@ const Counter = () => {
   }
 
   return (
-    <div className="article">
+    <article className="article">
       <div className="article-title">
         <h2>Counter = {counter}</h2>
-        <button type="button" className="button" onClick={increment}>
-          Increase counter
-        </button>
-        <button type="button" className="button" onClick={decrement}>
-          Decrease counter
-        </button>
+        <Button text='Increment' clickHandler={increment}/>
+        <Button text='Decrement' clickHandler={decrement}/>
       </div>
-    </div>
+    </article>
   )
 }
 
